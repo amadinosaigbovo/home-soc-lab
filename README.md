@@ -46,6 +46,11 @@ The environment was configured using two network adapters:
 
 * Allowed isolated communication between virtual machines
 * Enabled secure attack simulation without exposing the home network
+  ##Internal Network
+  ![Internal Network](Ubutu Adapter 2 = Internal Network.png)
+  ![NAT Adapter](Ubutu Adapter 1 = NAT.png)
+  ![Network Configuration](configurd networking.png)
+  
 
 
 # Wazuh Deployment
@@ -58,14 +63,20 @@ Installed and configured Wazuh SIEM on the Ubuntu monitoring server to:
 * investigate suspicious activity
 
 Verified service availability using systemctl and the Wazuh dashboard.
-
+  ##Wazuh Deplyment
+  ![Wazuh-Manager](status wazuh-manager.png)
+ ![Wazuh-Dashdoard](status wazuh-dashboard.png)
+ ![Wazuh Congigured To Read Suriacata Log](Configured Wazuh To Read Suricta Logs.png)
 
 # Suricata IDS Configuration
 
 Configured Suricata IDS to monitor traffic on the internal lab network interface.
 
 Updated IDS rules and monitored reconnaissance traffic generated from the Kali Linux machine.
-
+ ## suricata configuration
+ ![Suricat Filr Log](suricata file log.png)
+ ![Suricata Port Configuration](suricata port configuration.png)
+ ![Suricata Status](suricata status.png)
 
 # Attack Simulation
 
@@ -73,6 +84,11 @@ Simulated reconnaissance activity using Nmap from Kali Linux against the Ubuntu 
 
 Example command used:
 nmap -sS -A 10.0.5.10
+
+##Attack Stimulation and Detection
+![Nmap Attack](nmap attack from kali.png)
+![Successfull Nmap attack](confirmation of successful nmap attack.png)
+![Attack Detection](detection of nmap attack in ubutu.png)
 
 
 # Skills Learned
