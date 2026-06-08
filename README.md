@@ -41,14 +41,18 @@ The environment was configured using two network adapters:
 1. NAT Adapter
 
 * Provided internet access for updates and package installation
+  ## NAT Adapter
+  ![NAT Adapter](Ubutu_Adapter_1_NAT.png)
 
 2. Internal Network Adapter
 
 * Allowed isolated communication between virtual machines
 * Enabled secure attack simulation without exposing the home network
-  ##Internal Network
+  
+  ## Internal Network
   ![Internal Network](Ubutu_Adapter_2_Internal_Network.png)
-  ![NAT Adapter](Ubutu_Adapter_1_NAT.png)
+
+ ## Configured Network
   ![Network Configuration](configured_networking.png)
   
 
@@ -85,7 +89,7 @@ Simulated reconnaissance activity using Nmap from Kali Linux against the Ubuntu 
 Example command used:
 nmap -sS -A 10.0.5.10
 
-##Attack Stimulation and Detection
+## Attack Stimulation and Detection
 ![Nmap Attack](nmap_attack_from_kali.png)
 ![Successfull Nmap attack](confirmation_of_successful_nmap_attack.png)
 ![Attack Detection](detection_of_nmap_attack_in_ubutu.png)
