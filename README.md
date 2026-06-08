@@ -67,7 +67,8 @@ Installed and configured Wazuh SIEM on the Ubuntu monitoring server to:
 * investigate suspicious activity
 
 Verified service availability using systemctl and the Wazuh dashboard.
-  ##Wazuh Deplyment
+
+  ## Wazuh Deplyment
   ![Wazuh-Manager](status_wazuh-manager.png)
  ![Wazuh-Dashdoard](status_wazuh-dashboard.png)
  ![Wazuh Congigured To Read Suriacata Log](Configured_Wazuh_To_Read_Suricata_Logs.png)
