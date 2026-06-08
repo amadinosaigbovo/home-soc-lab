@@ -47,9 +47,9 @@ The environment was configured using two network adapters:
 * Allowed isolated communication between virtual machines
 * Enabled secure attack simulation without exposing the home network
   ##Internal Network
-  ![Internal Network](Ubutu Adapter 2 = Internal Network.png)
-  ![NAT Adapter](Ubutu Adapter 1 = NAT.png)
-  ![Network Configuration](configurd networking.png)
+  ![Internal Network](Ubutu_Adapter_2_Internal_Network.png)
+  ![NAT Adapter](Ubutu_Adapter_1_NAT.png)
+  ![Network Configuration](configured_networking.png)
   
 
 
@@ -64,9 +64,9 @@ Installed and configured Wazuh SIEM on the Ubuntu monitoring server to:
 
 Verified service availability using systemctl and the Wazuh dashboard.
   ##Wazuh Deplyment
-  ![Wazuh-Manager](status wazuh-manager.png)
- ![Wazuh-Dashdoard](status wazuh-dashboard.png)
- ![Wazuh Congigured To Read Suriacata Log](Configured Wazuh To Read Suricta Logs.png)
+  ![Wazuh-Manager](status_wazuh-manager.png)
+ ![Wazuh-Dashdoard](status_wazuh-dashboard.png)
+ ![Wazuh Congigured To Read Suriacata Log](Configured_Wazuh_To_Read_Suricata_Logs.png)
 
 # Suricata IDS Configuration
 
@@ -74,9 +74,9 @@ Configured Suricata IDS to monitor traffic on the internal lab network interface
 
 Updated IDS rules and monitored reconnaissance traffic generated from the Kali Linux machine.
  ## suricata configuration
- ![Suricat Filr Log](suricata file log.png)
- ![Suricata Port Configuration](suricata port configuration.png)
- ![Suricata Status](suricata status.png)
+ ![Suricat Filr Log](suricata_file_log.png)
+ ![Suricata Port Configuration](suricata_port_configuration.png)
+ ![Suricata Status](suricata_status.png)
 
 # Attack Simulation
 
@@ -86,9 +86,9 @@ Example command used:
 nmap -sS -A 10.0.5.10
 
 ##Attack Stimulation and Detection
-![Nmap Attack](nmap attack from kali.png)
-![Successfull Nmap attack](confirmation of successful nmap attack.png)
-![Attack Detection](detection of nmap attack in ubutu.png)
+![Nmap Attack](nmap_attack_from_kali.png)
+![Successfull Nmap attack](confirmation_of_successful_nmap_attack.png)
+![Attack Detection](detection_of_nmap_attack_in_ubutu.png)
 
 
 # Skills Learned
